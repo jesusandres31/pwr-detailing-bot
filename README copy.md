@@ -1,4 +1,4 @@
-# PWR Detailing Bot
+# Chat Bot
 
 Telegram bot in Node.js + TypeScript that answers questions using Groq LLM.
 
