@@ -1,54 +1,44 @@
-# PWR Detailing Bot
+<p align="center">
+  <a href="https://builderbot.vercel.app/">
+    <picture>
+      <img src="https://builderbot.vercel.app/assets/thumbnail-vector.png" height="80">
+    </picture>
+    <h2 align="center">BuilderBot</h2>
+  </a>
+</p>
 
-Telegram bot in Node.js + TypeScript that answers questions using Groq LLM.
 
-## Requirements
 
-- Node.js >= 18
-- pnpm (or npm/yarn)
-- Environment variables in a `.env` file at the project root:
+<p align="center">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@builderbot/bot">
+    <img alt="" src="https://img.shields.io/npm/v/@builderbot/bot?color=%2300c200&label=%40bot-whatsapp">
+  </a>
+  <a aria-label="Join the community on GitHub" href="https://link.codigoencasa.com/DISCORD">
+    <img alt="" src="https://img.shields.io/discord/915193197645402142?logo=discord">
+  </a>
+</p>
 
-## Installation
 
-```sh
-pnpm install
+## Getting Started
+
+With this library, you can build automated conversation flows agnostic to the WhatsApp provider, set up automated responses for frequently asked questions, receive and respond to messages automatically, and track interactions with customers. Additionally, you can easily set up triggers to expand functionalities limitlessly.
+
+```
+npm create builderbot@latest
 ```
 
-## Local run
 
-```sh
-pnpm start
-# or
-node dist/index.js
-```
+## Documentation
 
-## Production deployment (VPC) with PM2
+Visit [builderbot](https://builderbot.vercel.app/) to view the full documentation.
 
-1. Install pm2 globally (if you don't have it):
 
-   ```sh
-   pnpm add -g pm2
-   # or
-   npm install -g pm2
-   ```
+## Official Course
 
-2. Build the project:
+If you want to discover all the functions and features offered by the library you can take the course.
+[View Course](https://app.codigoencasa.com/courses/builderbot?refCode=LEIFER)
 
-   ```sh
-   pnpm build
-   # or
-   tsc
-   ```
 
-3. Start the bot with pm2:
-
-   ```sh
-   pm2 start dist/index.js --name chat-bot
-   ```
-
-4. Useful pm2 commands:
-   - List processes: `pm2 ls`
-   - View logs: `pm2 logs chat-bot`
-   - Restart: `pm2 restart chat-bot`
-   - Stop: `pm2 stop chat-bot`
-   - Delete: `pm2 delete chat-bot`
+## Contact Us
+- [💻 Discord](https://link.codigoencasa.com/DISCORD)
+- [👌 𝕏 (Twitter)](https://twitter.com/leifermendez)

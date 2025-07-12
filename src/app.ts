@@ -1,5 +1,7 @@
-import { startWhatsAppBot } from './libs/whatsapp';
+import { startWppServer } from './lib/whatsapp';
+import { processMsgs } from './handler/whatsapp';
 
-export function startBotApp() {
-  startWhatsAppBot();
+export async function startBotApp() {
+  await startWppServer();
+  await processMsgs();
 }
